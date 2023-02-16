@@ -2,5 +2,6 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "line",
     "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true
+    "editor.guides.bracketPairsHorizontal": true,
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }
