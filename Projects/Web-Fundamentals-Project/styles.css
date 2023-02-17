@@ -2,15 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: floralwhite;
 }
 
-@media screen and (max-width: 768px) {
-  div {
-    width: 100%;
-  }
-}
 #nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+#logo {
+  border: 2px solid black;
+  width: 33%;
+  height: 10vh;
+  font-size: 50px;
+}
+
+#login {
+  border: 2px solid black;
 }
