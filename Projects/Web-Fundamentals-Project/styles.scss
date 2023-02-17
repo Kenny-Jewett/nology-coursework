@@ -41,11 +41,15 @@ $color-footer: #fffcdd;
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 10px;
   h1 {
-    color: $color-bright-blue;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-
+    color: $color-bright-blue;    
+    align-items: center;
+    
   }
 }
+
