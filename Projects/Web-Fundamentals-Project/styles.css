@@ -9,8 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
-  padding-top: 20px;
+  padding: 40px 10%;
 }
 
 #logo {
@@ -33,11 +32,12 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px 10px;
+  padding: 40px 0;
 }
 header h1 {
   color: #1cb8f1;
   align-items: center;
+  font-size: 50px;
 }
 
 #device-mockup {
@@ -46,5 +46,49 @@ header h1 {
 }
 #device-mockup img {
   width: 60%;
-  padding: 75px 0;
+  padding: 50px 0;
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+main h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #1cb8f1;
+  padding: 40px;
+}
+main h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #394166;
+}
+main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 50px 35%;
+  background-color: #394166;
+  color: #fafafa;
+  border: 1px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.penguin-section {
+  border: 1px solid red;
+}
+.penguin-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
