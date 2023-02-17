@@ -2,7 +2,7 @@
 
 $color-logo: #394166;
 $color-bright-blue: #1cb8f1;
-$color-background: #fefdf8;
+$color-background: #fcf9ed;
 $color-footer: #fffcdd;
 
 * {
@@ -30,8 +30,8 @@ $color-footer: #fffcdd;
 }
 
 #login {  
-  border: 1px solid black;
-  padding: 25px 40px;
+  border: 2px solid black;
+  padding: 20px 40px;
   border-radius: 7px;
   text-decoration: none;
   font-size: 30px;
@@ -53,3 +53,12 @@ header {
   }
 }
 
+#device-mockup {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 60%;
+    padding: 75px 0;
+  }
+}
