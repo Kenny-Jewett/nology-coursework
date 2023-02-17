@@ -2,22 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: floralwhite;
+  background-color: #fefdf8;
 }
 
 #nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 10%;
+  padding-top: 20px;
 }
 
 #logo {
-  border: 2px solid black;
-  width: 33%;
-  height: 10vh;
-  font-size: 50px;
+  font-size: 75px;
+  color: #394166;
 }
 
 #login {
-  border: 2px solid black;
+  border: 1px solid black;
+  padding: 25px 40px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #394166;
+}
+
+header h1 {
+  color: #1cb8f1;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
