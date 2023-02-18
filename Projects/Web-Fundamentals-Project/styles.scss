@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$font-body: "Roboto" , sans-serif;
 
 
 $color-logo: #394166;
@@ -14,10 +17,12 @@ $color-button-text: #fafafa;
     padding: 0;
     box-sizing: border-box;  
     background-color: $color-background;  
+    font-family: $font-body;
 }
 
 em {
   font-weight: bold;
+  font-style: normal;
 }
 
 i {
@@ -28,9 +33,7 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 30px 10%;
-    
-      
+    padding: 30px 7%;      
 }
 
 #logo {    
@@ -43,10 +46,9 @@ i {
   padding: 15px 25px;
   border-radius: 7px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  color: $color-logo;
-
+  color: $color-logo;  
 }
 
 header {
@@ -55,10 +57,11 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 20px 10px;  
-  h1 {
+  p {
     color: $color-bright-blue;    
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: bold;
     
   }
 }
@@ -69,7 +72,7 @@ header {
 
   img {
     width: 60%;
-    padding: 50px 0;
+    padding: 40px 0;
   }
 }
 
@@ -89,7 +92,8 @@ main {
     align-items: center;
     font-size: 20px;
     color: $color-bright-blue;
-    padding: 40px;
+    padding: 40px 0;
+
 
   }
 
@@ -106,7 +110,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 50px;
     width: 200px;
     margin: 40px;
     margin-left: 28%;
@@ -115,7 +119,8 @@ main {
     border: 1px;
     border-radius: 7px;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    font-weight: bold;
   }
 
 } 
@@ -135,6 +140,7 @@ main {
     }
     img {
     padding: 0 10px;
+
     }
   }
 }
@@ -156,8 +162,9 @@ footer {
       text-decoration: none;
       color: $color-logo;
       background-color: $color-footer;
-      padding: 20px 0;
-      font-size: 1.5em;
+      padding: 10px 0;
+      font-size: 1.10em;
+      font-weight: bold;
 
 
     }

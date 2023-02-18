@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #fcf9ed;
+  font-family: "Roboto", sans-serif;
 }
 
 em {
   font-weight: bold;
+  font-style: normal;
 }
 
 i {
@@ -17,7 +20,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 7%;
 }
 
 #logo {
@@ -30,7 +33,7 @@ i {
   padding: 15px 25px;
   border-radius: 7px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: #394166;
 }
@@ -42,10 +45,11 @@ header {
   flex-direction: column;
   padding: 20px 10px;
 }
-header h1 {
+header p {
   color: #1cb8f1;
   align-items: center;
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #device-mockup {
@@ -54,7 +58,7 @@ header h1 {
 }
 #device-mockup img {
   width: 60%;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 main {
@@ -72,7 +76,7 @@ main h3 {
   align-items: center;
   font-size: 20px;
   color: #1cb8f1;
-  padding: 40px;
+  padding: 40px 0;
 }
 main h4 {
   display: flex;
@@ -86,7 +90,7 @@ main a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 50px;
   width: 200px;
   margin: 40px;
   margin-left: 28%;
@@ -95,7 +99,8 @@ main a {
   border: 1px;
   border-radius: 7px;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  font-weight: bold;
 }
 
 .penguin-section div {
@@ -124,8 +129,9 @@ footer div a {
   text-decoration: none;
   color: #394166;
   background-color: #fffcdd;
-  padding: 20px 0;
-  font-size: 1.5em;
+  padding: 10px 0;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 480px) {
