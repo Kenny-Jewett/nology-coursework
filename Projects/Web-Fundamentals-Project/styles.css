@@ -1,12 +1,12 @@
-html {
-  height: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #fcf9ed;
+}
+
+em {
+  font-weight: bold;
 }
 
 #nav-container {
@@ -84,7 +84,7 @@ main a {
   align-items: center;
   height: 60px;
   width: 200px;
-  margin: 20px;
+  margin: 40px;
   margin-left: 28%;
   background-color: #394166;
   color: #fafafa;
@@ -108,21 +108,24 @@ main a {
   padding: 0 10px;
 }
 
-#footer-nav {
+footer div {
   display: flex;
   flex-direction: column;
-  padding: 1.25em;
-  height: 50px;
-  width: 100%;
-  align-content: center;
   justify-content: center;
+  align-items: center;
+  background-color: #fffcdd;
+  padding: 20px 0;
 }
-#footer-nav h2 {
-  padding: 20px;
+footer div a {
+  text-decoration: none;
+  color: #394166;
+  background-color: #fffcdd;
+  padding: 20px 0;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 480px) {
-  main {
-    width: 300px;
+  body {
+    width: 480px;
   }
 }
