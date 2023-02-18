@@ -30,10 +30,10 @@ i {
 }
 
 #nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 30px 7%;      
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 30px 7%;      
 }
 
 #logo {    
@@ -56,13 +56,13 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px 10px;  
+  padding: 20px 10px;
+
   p {
     color: $color-bright-blue;    
     align-items: center;
     font-size: 30px;
-    font-weight: bold;
-    
+    font-weight: bold;    
   }
 }
 
@@ -93,8 +93,6 @@ main {
     font-size: 20px;
     color: $color-bright-blue;
     padding: 40px 0;
-
-
   }
 
   h4 {
@@ -122,7 +120,6 @@ main {
     font-size: 1.15em;
     font-weight: bold;
   }
-
 } 
 
 
@@ -138,16 +135,15 @@ main {
     flex-wrap: wrap;
     font-size: 1.25em;
     }
+
     img {
     padding: 0 10px;
-
     }
   }
 }
 
 
 footer {
-
 
   div {
     display: flex;
@@ -158,7 +154,6 @@ footer {
     padding: 20px 0;
     margin-top: 70px;
 
-
     a {
       text-decoration: none;
       color: $color-logo;
@@ -166,8 +161,6 @@ footer {
       padding: 10px 0;
       font-size: 1.10em;
       font-weight: bold;
-
-
     }
   }
 }
