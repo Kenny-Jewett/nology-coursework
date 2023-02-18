@@ -7,6 +7,11 @@ $color-footer: #fffcdd;
 $color-button-text: #fafafa;
 
 
+html{
+  height: 100%;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -19,22 +24,22 @@ $color-button-text: #fafafa;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 40px 10%;
+    padding: 30px 10%;
     
       
 }
 
 #logo {    
-  font-size: 75px; 
+  font-size: 40px; 
   color: $color-logo;   
 }
 
 #login {  
   border: 2px solid black;
-  padding: 20px 40px;
+  padding: 15px 25px;
   border-radius: 7px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: $color-logo;
 
@@ -45,11 +50,11 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px 0;  
+  padding: 20px 10px;  
   h1 {
     color: $color-bright-blue;    
     align-items: center;
-    font-size: 50px;
+    font-size: 35px;
     
   }
 }
@@ -65,19 +70,20 @@ header {
 }
 
 main {
+  flex-wrap: wrap;
 
   h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 25px;
   }
 
  h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 20px;
     color: $color-bright-blue;
     padding: 40px;
 
@@ -87,7 +93,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
+    padding: 0 20px;
     color: $color-logo;
   }
 
@@ -96,7 +103,9 @@ main {
     justify-content: center;
     align-items: center;
     height: 60px;
-    margin: 50px 35%;
+    width: 200px;
+    margin: 20px;
+    margin-left: 28%;
     background-color: $color-logo;
     color: $color-button-text;
     border: 1px;
@@ -109,18 +118,20 @@ main {
 
 
 .penguin-section{
-  
-  border: 1px solid red;
-
+    
   div {
     display: flex;
        align-items: center;
        justify-content: space-evenly;
+       padding: 15px 15px;
        
     p {
-       
+      flex-wrap: wrap;
+      font-size: 1.25em;
     }
-
+    img {
+      padding: 0 10px;
+    }
 
 
   }
@@ -130,4 +141,30 @@ main {
 
 }
 
+
+#footer-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25em;
+  height: 50px;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  
+  
+  h2 {
+    padding: 20px;
+    
+    
+  }
+}
+
+
+
+@media screen and (min-width: 480px) {
+  main {
+    width: 300px;
+  }
+}
+  
 
