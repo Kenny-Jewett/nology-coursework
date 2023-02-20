@@ -16,6 +16,17 @@ function getGreetingInFrench(event) {
     } else if (greeting == "Goodbye") {
         alert("au revoir")
     } else {
-        alert(`Not recognized`)
+        alert("Not recognized")
     }
+}
+
+function getCelsiusFromFahrenheit(event) {
+    let inputDegrees = event.target.value;
+    let celsiusStepOne = inputDegrees - 32;
+    let celsiusDegrees = celsiusStepOne * 5 / 9;
+    alert(celsiusDegrees)
+
+
+
+
 }
