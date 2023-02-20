@@ -1,6 +1,5 @@
 function calculateYearsUntilRetirement(event) {
     const currentAge = event.target.value;
-
     //Start code here ..
     const yearsLeft = 65 - currentAge;
     alert(yearsLeft)    
@@ -25,8 +24,4 @@ function getCelsiusFromFahrenheit(event) {
     let celsiusStepOne = inputDegrees - 32;
     let celsiusDegrees = celsiusStepOne * 5 / 9;
     alert(celsiusDegrees)
-
-
-
-
 }
