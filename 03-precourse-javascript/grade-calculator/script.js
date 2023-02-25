@@ -46,26 +46,26 @@ function handleDaysUntilWeekend(event) {
     }
 
     let daysLeft;
-    switch (daysUntilWeekend) {
-        case "Monday":
+    switch (daysUntilWeekend.toLowerCase()) {
+        case "monday":
             daysLeft = "5 days until the weekend.";
             break;
-        case "Tuesday":
+        case "tuesday":
             daysLeft = "4 days until the weekend.";
             break;
-        case "Wednesday":
+        case "wednesday":
             daysLeft = "3 days until the weekend.";
             break;
-        case "Thursday":
+        case "thursday":
             daysLeft = "2 days until the weekend.";
             break;
-        case "Friday":
+        case "friday":
             daysLeft = "1 day until the weekend.";
             break;
-        case "Saturday":
+        case "saturday":
             daysLeft = "It's the weekend!";
             break;
-        case "Sunday":
+        case "sunday":
             daysLeft = "It's the weekend!";
             break;
         default:
