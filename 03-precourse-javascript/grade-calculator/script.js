@@ -38,3 +38,42 @@ function handlePositiveOrNegative(event) {
 
 
 }
+
+function handleDaysUntilWeekend(event) {
+    const daysUntilWeekend = event.target.value;
+    if (!daysUntilWeekend) {
+        return;
+    }
+
+    let daysLeft;
+    switch (daysUntilWeekend) {
+        case "Monday":
+            daysLeft = "5 days until the weekend.";
+            break;
+        case "Tuesday":
+            daysLeft = "4 days until the weekend.";
+            break;
+        case "Wednesday":
+            daysLeft = "3 days until the weekend.";
+            break;
+        case "Thursday":
+            daysLeft = "2 days until the weekend.";
+            break;
+        case "Friday":
+            daysLeft = "1 day until the weekend.";
+            break;
+        case "Saturday":
+            daysLeft = "It's the weekend!";
+            break;
+        case "Sunday":
+            daysLeft = "It's the weekend!";
+            break;
+        default:
+            daysLeft = "Sorry we didn't recognise that day."
+
+    }
+
+    alert(daysLeft);
+
+}
+
