@@ -1,11 +1,8 @@
 function handleCalculateGrade(event) {
-
     const grade = event.target.value;
-
     if (!grade) {
         return;
     }
-
     let percentage;
     switch (grade.toUpperCase()) {
         case "A":
@@ -24,6 +21,20 @@ function handleCalculateGrade(event) {
             percentage = "0-25%";
             break;
     }
-
     alert("The percentage was " + percentage);
+}
+
+function handlePositiveOrNegative(event) {
+    const myNumber = event.target.value;
+    if (!myNumber){
+        return;
+    }
+
+    if (myNumber >= 0) {
+        alert("You're number is positive.");
+    } else {
+        alert("You're number is negative.");
+    }
+
+
 }
