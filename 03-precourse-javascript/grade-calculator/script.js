@@ -85,9 +85,7 @@ function handleVegetablePrices(event) {
 
     let price;
     switch (vegetablePrices.toLowerCase()) {
-        case "potatoes":
-            price = "1 dollar";
-            break;
+        case "potatoes":           
         case "carrots":
             price = "1 dollar";
             break;
