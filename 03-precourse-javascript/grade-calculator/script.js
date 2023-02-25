@@ -77,3 +77,32 @@ function handleDaysUntilWeekend(event) {
 
 }
 
+function handleVegetablePrices(event) {
+    const vegetablePrices = event.target.value;
+    if (!vegetablePrices) {
+        return;
+    }
+
+    let price;
+    switch (vegetablePrices) {
+        case "potatoes":
+            price = "1 dollar";
+            break;
+        case "carrots":
+            price = "1 dollar";
+            break;
+        case "brocolli":
+            price = "3 dollars";
+            break;
+        case "cabbage":
+            price = "4 dollars";
+            break;
+        case "asparagus":
+            price = "2 dollars";
+            break;
+        default:
+            price = "We do not recognize that product.";
+                    
+    }
+     alert(price);
+}
