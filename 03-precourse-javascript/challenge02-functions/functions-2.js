@@ -45,7 +45,15 @@
 // calculateSupply(20, 5);
 
 
+// **The Temperature Converter**
+// Let's make a celsius/farenheit converter.
 
+function celsiusToFarenheit (celsius) {
+    const farenheit = (celsius * 9/5) + 32;
+    console.log(farenheit);
+}
+
+celsiusToFarenheit(32);
 
 
 
