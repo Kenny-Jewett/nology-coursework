@@ -48,12 +48,32 @@
 // **The Temperature Converter**
 // Let's make a celsius/farenheit converter.
 
-function celsiusToFarenheit (celsius) {
-    const farenheit = (celsius * 9/5) + 32;
-    console.log(farenheit);
+// function celsiusToFarenheit (celsius) {
+//     const farenheit = (celsius * 9/5) + 32;
+//     console.log(farenheit);
+// }
+
+// celsiusToFarenheit(0);
+
+// ** The Puppy Age Calculator **
+// Calculate dog year from human years
+
+
+function dogYears (humanYears) {
+    const firstYear = 15;
+    const secondYear = 9;
+        
+    if (humanYears > 2) {
+       console.log((firstYear + secondYear) + ((humanYears - 2) * 5));
+    } else if (humanYears == 1) {
+        console.log(firstYear);
+    } else {
+        console.log(firstYear + secondYear);
+    }
+
 }
 
-celsiusToFarenheit(32);
-
-
-
+dogYears(3);
+dogYears(2);
+dogYears(1);
+dogYears(5);
