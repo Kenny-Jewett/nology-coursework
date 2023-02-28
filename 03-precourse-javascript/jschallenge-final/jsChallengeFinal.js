@@ -76,6 +76,9 @@ function allNumbersPositive (arrayNumbers) {
 // console.log(allNumbersPositive([5,-4,6])); // returns false
 // console.log(allNumbersPositive([0,4,6])); // returns true
 
+
+// ** Alternate version using for loop **
+
 // function isAllNumbersPositive (arrayNumbers) {
 //     for (i = 0; i < arrayNumbers.length; i++) {
 //         if (arrayNumbers[i] < 0) {
