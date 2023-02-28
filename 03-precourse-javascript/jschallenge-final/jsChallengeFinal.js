@@ -36,7 +36,6 @@ function getLargestNumber (first, second, third) {
     } else {
         return `${third} is the largest number.`;
     }
-
 }
 // ** Tests **
 // console.log(getLargestNumber(2 ,1, 4)); // returns 4
