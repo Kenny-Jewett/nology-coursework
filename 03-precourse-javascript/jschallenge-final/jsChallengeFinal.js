@@ -9,10 +9,10 @@ function isNumberPositive (number) {
 }
 
 // ** Tests **
-// isNumberPositive(0);
-// isNumberPositive(1);
-// isNumberPositive(-1);
-// isNumberPositive(-5);
+// isNumberPositive(0); // returns true
+// isNumberPositive(1); //returns true
+// isNumberPositive(-1); // returns false
+// isNumberPositive(-5); // returns false
 
 // 2. Write a function that takes a number of days and converts it into an age.
 function convertDaysToAge (days) {
@@ -21,11 +21,11 @@ function convertDaysToAge (days) {
 }
 
 // ** Tests **
-// convertDaysToAge(365);
-// convertDaysToAge(100000);
-// convertDaysToAge(15000);
-// convertDaysToAge(1000);
-// convertDaysToAge(100);
+// convertDaysToAge(365);   // returns 1
+// convertDaysToAge(100000); // returns 273
+// convertDaysToAge(15000); // returns 41
+// convertDaysToAge(1000); // returns 2 
+// convertDaysToAge(100); // returns 0 
 
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
@@ -41,11 +41,11 @@ function getLargestNumber (first, second, third) {
 }
 
 // ** Tests **
-// getLargestNumber(2 ,1, 4);
-// getLargestNumber(6,2,3);
-// getLargestNumber(9,2,4);
-// getLargestNumber(1,2,3);
-// getLargestNumber(9,9,9);
+// getLargestNumber(2 ,1, 4); // returns 4
+// getLargestNumber(6,2,3); // returns 6
+// getLargestNumber(9,2,4); // returns 9
+// getLargestNumber(1,2,3); // returns 3
+// getLargestNumber(9,9,9); // returns 9
 
 
 
@@ -69,10 +69,11 @@ function allNumbersPositive (arrayNumbers) {
     console.log(!arrayNumbers.some(isNegative));
 }
 
-allNumbersPositive([2,4,5]); // returns true
-allNumbersPositive([-5,4,6]); // returns false
-allNumbersPositive([5,4,6]); // returns true
-allNumbersPositive([-5,-4,-6]); // returns false
-allNumbersPositive([5,-4,6]); // returns false
-allNumbersPositive([0,4,6]); // returns true
+// ** Tests **
+// allNumbersPositive([2,4,5]); // returns true
+// allNumbersPositive([-5,4,6]); // returns false
+// allNumbersPositive([5,4,6]); // returns true
+// allNumbersPositive([-5,-4,-6]); // returns false
+// allNumbersPositive([5,-4,6]); // returns false
+// allNumbersPositive([0,4,6]); // returns true
 
