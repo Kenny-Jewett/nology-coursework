@@ -76,3 +76,18 @@ function allNumbersPositive (arrayNumbers) {
 // console.log(allNumbersPositive([5,-4,6])); // returns false
 // console.log(allNumbersPositive([0,4,6])); // returns true
 
+// function isAllNumbersPositive (arrayNumbers) {
+//     for (i = 0; i < arrayNumbers.length; i++) {
+//         if (arrayNumbers[i] < 0) {
+//             return false;
+//         } 
+//     }
+//     return true;
+// }
+
+// console.log(isAllNumbersPositive([2,4,5])); // returns true
+// console.log(isAllNumbersPositive([-5,4,6])); // returns false
+// console.log(isAllNumbersPositive([5,4,6])); // returns true
+// console.log(isAllNumbersPositive([-5,-4,-6])); // returns false
+// console.log(isAllNumbersPositive([5,-4,6])); // returns false
+// console.log(isAllNumbersPositive([0,4,6])); // returns true
