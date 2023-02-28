@@ -30,21 +30,21 @@ function convertDaysToAge (days) {
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
 function getLargestNumber (first, second, third) {
     if ((first > second) && (first > third)) {
-        console.log(`${first} is the largest number.`);
+        return `${first} is the largest number.`;
     } else if ((second > first) && (second > third)) {
-        console.log(`${second} is the largest number.`);
+        return `${second} is the largest number.`;
     } else {
-        console.log(`${third} is the largest number.`);
+        return `${third} is the largest number.`;
     }
 
 }
-
 // ** Tests **
-// getLargestNumber(2 ,1, 4); // returns 4
-// getLargestNumber(6,2,3); // returns 6
-// getLargestNumber(9,2,4); // returns 9
-// getLargestNumber(1,2,3); // returns 3
-// getLargestNumber(9,9,9); // returns 9
+console.log(getLargestNumber(2 ,1, 4)); // returns 4
+console.log(getLargestNumber(6,2,3)); // returns 6
+console.log(getLargestNumber(9,2,4)); // returns 9
+console.log(getLargestNumber(1,2,3)); // returns 3
+console.log(getLargestNumber(9,9,9)); // returns 9
+
 
 
 
