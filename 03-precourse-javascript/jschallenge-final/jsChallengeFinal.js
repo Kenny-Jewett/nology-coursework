@@ -39,11 +39,11 @@ function getLargestNumber (first, second, third) {
 
 }
 // ** Tests **
-console.log(getLargestNumber(2 ,1, 4)); // returns 4
-console.log(getLargestNumber(6,2,3)); // returns 6
-console.log(getLargestNumber(9,2,4)); // returns 9
-console.log(getLargestNumber(1,2,3)); // returns 3
-console.log(getLargestNumber(9,9,9)); // returns 9
+// console.log(getLargestNumber(2 ,1, 4)); // returns 4
+// console.log(getLargestNumber(6,2,3)); // returns 6
+// console.log(getLargestNumber(9,2,4)); // returns 9
+// console.log(getLargestNumber(1,2,3)); // returns 3
+// console.log(getLargestNumber(9,9,9)); // returns 9
 
 
 
@@ -51,14 +51,14 @@ console.log(getLargestNumber(9,9,9)); // returns 9
 // 4. Write a function that takes an array of names and returns the last name from the array of names.
 function getLastName (arrayNames) {
     const lastName = arrayNames.length - 1;
-    console.log(arrayNames[lastName]);
+    return arrayNames[lastName];
 }
 
 // ** Tests **
-// getLastName(["Charlie", "Rob", "Andy"]); // returns “Andy”
-// getLastName(["Ash","Stu"]); // returns "Stu"
-// getLastName(["Ash","Stu", "Ben", "Travis"]); // returns "Travis"
-// getLastName(["Ash","Stu", "Ben", "Travis", "Corey"]); // returns "Corey"
+// console.log(getLastName(["Charlie", "Rob", "Andy"])); // returns “Andy”
+// console.log(getLastName(["Ash","Stu"])); // returns "Stu"
+// console.log(getLastName(["Ash","Stu", "Ben", "Travis"])); // returns "Travis"
+// console.log(getLastName(["Ash","Stu", "Ben", "Travis", "Corey"])); // returns "Corey"
 
 
 // 5. Write a function that takes an array of numbers and returns true if all of the numbers are 
