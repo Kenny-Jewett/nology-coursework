@@ -69,10 +69,10 @@ function allNumbersPositive (arrayNumbers) {
 }
 
 // ** Tests **
-console.log(allNumbersPositive([2,4,5])); // returns true
-console.log(allNumbersPositive([-5,4,6])); // returns false
-console.log(allNumbersPositive([5,4,6])); // returns true
-console.log(allNumbersPositive([-5,-4,-6])); // returns false
-console.log(allNumbersPositive([5,-4,6])); // returns false
-console.log(allNumbersPositive([0,4,6])); // returns true
+// console.log(allNumbersPositive([2,4,5])); // returns true
+// console.log(allNumbersPositive([-5,4,6])); // returns false
+// console.log(allNumbersPositive([5,4,6])); // returns true
+// console.log(allNumbersPositive([-5,-4,-6])); // returns false
+// console.log(allNumbersPositive([5,-4,6])); // returns false
+// console.log(allNumbersPositive([0,4,6])); // returns true
 
