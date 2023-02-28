@@ -64,9 +64,9 @@ function getLastName (arrayNames) {
 // positive. It should return false if there are one or more negative numbers in the array.
 function allNumbersPositive (arrayNumbers) {
     const isNegative = (element) => element < 0;
-    // .some() returns true/false if an element passes/fails a declared test(isNegative). Problem set is asking  
-    // for true if all numbers are positive, but .some will return false. I used a ! to invert the boolean 
-    // value of the test result in order to match challenge requirements.
+    // .some() returns true/false if a single element passes/fails a declared test(isNegative). Problem set is asking  
+    // for true if all numbers are positive, but .some(isNegative) will return false. I used a ! to invert  
+    // the boolean value of the test result in order to match challenge requirements.
     return !arrayNumbers.some(isNegative);
 }
 
