@@ -65,14 +65,14 @@ function getLastName (arrayNames) {
 // positive. It should return false if there are one or more negative numbers in the array.
 function allNumbersPositive (arrayNumbers) {
     const isNegative = (element) => element < 0;
-    console.log(!arrayNumbers.some(isNegative));
+    return !arrayNumbers.some(isNegative);
 }
 
 // ** Tests **
-// allNumbersPositive([2,4,5]); // returns true
-// allNumbersPositive([-5,4,6]); // returns false
-// allNumbersPositive([5,4,6]); // returns true
-// allNumbersPositive([-5,-4,-6]); // returns false
-// allNumbersPositive([5,-4,6]); // returns false
-// allNumbersPositive([0,4,6]); // returns true
+console.log(allNumbersPositive([2,4,5])); // returns true
+console.log(allNumbersPositive([-5,4,6])); // returns false
+console.log(allNumbersPositive([5,4,6])); // returns true
+console.log(allNumbersPositive([-5,-4,-6])); // returns false
+console.log(allNumbersPositive([5,-4,6])); // returns false
+console.log(allNumbersPositive([0,4,6])); // returns true
 
