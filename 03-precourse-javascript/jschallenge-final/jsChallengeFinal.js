@@ -2,30 +2,29 @@
 // if it is a negative number.
 function isNumberPositive (number) {
     if (number >= 0) {
-        console.log(true);
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
-
 // ** Tests **
-// isNumberPositive(0); // returns true
-// isNumberPositive(1); //returns true
-// isNumberPositive(-1); // returns false
-// isNumberPositive(-5); // returns false
+//  console.log(isNumberPositive(0)); // returns true
+//  console.log(isNumberPositive(1)); //returns true
+//  console.log(isNumberPositive(-1)); // returns false
+//  console.log(isNumberPositive(-5)); // returns false
 
 // 2. Write a function that takes a number of days and converts it into an age.
 function convertDaysToAge (days) {
     const age = days / 365;
-    console.log(`${days} days is ${Math.floor(age)} years old`);
+    return `${days} days is ${Math.floor(age)} years old`;
 }
 
 // ** Tests **
-// convertDaysToAge(365);   // returns 1
-// convertDaysToAge(100000); // returns 273
-// convertDaysToAge(15000); // returns 41
-// convertDaysToAge(1000); // returns 2 
-// convertDaysToAge(100); // returns 0 
+// console.log(convertDaysToAge(365)); // returns 1
+// console.log(convertDaysToAge(100000)); // returns 273
+// console.log(convertDaysToAge(15000)); // returns 41
+// console.log(convertDaysToAge(1000)); // returns 2 
+// console.log(convertDaysToAge(100)); // returns 0 
 
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
